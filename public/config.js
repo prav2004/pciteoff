@@ -16,14 +16,14 @@ window.PICKR_CONFIG = {
 
   REGION_PERKS_OFFERS: {
     canada: [
-      { name: 'Atefia', image: 'atefia.png', reward: 'Up to €200', rewardDetail: 'Partner sign-up offer. Terms and eligibility apply.', url: 'https://go.driveaffiliates.com/visit/?bta=36624&nci=5480&utm_campaign=SEO_CA_CPA_ATF' },
-      { name: 'Spinfin', image: 'Spinfin.png', reward: 'Up to €200', rewardDetail: 'Partner sign-up offer. Terms and eligibility apply.', url: 'https://go.driveaffiliates.com/visit/?bta=36624&nci=5473&utm_campaign=SEO_CA_CPA_SPF' },
-      { name: 'X3B', image: 'x3bet.png', reward: 'Up to €200', rewardDetail: 'Partner sign-up offer. Terms and eligibility apply.', url: 'https://go.driveaffiliates.com/visit/?bta=36624&nci=5472&utm_campaign=SEO_CA_CPA_X3B' }
+      { name: 'Atefia', image: 'atefia.png', reward: '', rewardDetail: 'Partner sign-up offer. Terms and eligibility apply.', url: 'https://go.driveaffiliates.com/visit/?bta=36624&nci=5480&utm_campaign=SEO_CA_CPA_ATF' },
+      { name: 'Spinfin', image: 'Spinfin.png', reward: '', rewardDetail: 'Partner sign-up offer. Terms and eligibility apply.', url: 'https://go.driveaffiliates.com/visit/?bta=36624&nci=5473&utm_campaign=SEO_CA_CPA_SPF' },
+      { name: 'X3B', image: 'x3bet.png', reward: '', rewardDetail: 'Partner sign-up offer. Terms and eligibility apply.', url: 'https://go.driveaffiliates.com/visit/?bta=36624&nci=5472&utm_campaign=SEO_CA_CPA_X3B' }
     ],
     uk: [
-      { name: 'Atefia', image: 'atefia.png', reward: 'Up to €250', rewardDetail: 'Partner sign-up offer. Terms and eligibility apply.', url: 'https://go.driveaffiliates.com/visit/?bta=36624&nci=5465&utm_campaign=SEO_UK_CPA_ATF' },
-      { name: 'Spinfin', image: 'Spinfin.png', reward: 'Up to €250', rewardDetail: 'Partner sign-up offer. Terms and eligibility apply.', url: 'https://go.driveaffiliates.com/visit/?bta=36624&nci=5356&utm_campaign=SEO_UK_CPA_SPF' },
-      { name: 'X3B', image: 'x3bet.png', reward: 'Up to €250', rewardDetail: 'Partner sign-up offer. Terms and eligibility apply.', url: 'https://go.driveaffiliates.com/visit/?bta=36624&nci=5370&utm_campaign=SEO_UK_CPA_X3B' }
+      { name: 'Atefia', image: 'atefia.png', reward: '', rewardDetail: 'Partner sign-up offer. Terms and eligibility apply.', url: 'https://go.driveaffiliates.com/visit/?bta=36624&nci=5465&utm_campaign=SEO_UK_CPA_ATF' },
+      { name: 'Spinfin', image: 'Spinfin.png', reward: '', rewardDetail: 'Partner sign-up offer. Terms and eligibility apply.', url: 'https://go.driveaffiliates.com/visit/?bta=36624&nci=5356&utm_campaign=SEO_UK_CPA_SPF' },
+      { name: 'X3B', image: 'x3bet.png', reward: '', rewardDetail: 'Partner sign-up offer. Terms and eligibility apply.', url: 'https://go.driveaffiliates.com/visit/?bta=36624&nci=5370&utm_campaign=SEO_UK_CPA_X3B' }
     ]
   }
 };

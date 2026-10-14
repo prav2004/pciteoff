@@ -6,7 +6,7 @@
     <title>Pickr – Regional Perks</title>
     <link rel="icon" type="image/png" href="tablogo.png" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="config.js?v=20261013-partner-offers"></script>
+    <script src="config.js?v=20261013-no-currency"></script>
     <script src="js/region.js?v=20260928-profile-region"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -109,8 +109,8 @@
                 <p class="text-[10px] font-bold uppercase tracking-[.16em] text-orange-300">${label}</p>
                 <h3 class="mt-1 text-xl font-bold text-white">${offer.name}</h3>
                 <div class="offer-reward mt-3 p-3">
-                  <p class="text-[10px] font-bold uppercase tracking-[.14em] text-slate-400">Pickr sign-up bonus</p>
-                  <p class="mt-1 text-lg font-bold text-white">${offer.reward}</p>
+                  <p class="text-[10px] font-bold uppercase tracking-[.14em] text-slate-400">Partner offer</p>
+                  ${offer.reward ? `<p class="mt-1 text-lg font-bold text-white">${offer.reward}</p>` : ''}
                   <p class="mt-1 text-xs leading-5 text-slate-300">${offer.rewardDetail}</p>
                 </div>
                 <a href="${offer.url}" target="_blank" rel="noopener sponsored" class="mt-4 flex w-full items-center justify-center px-4 py-3 text-sm font-bold text-slate-950 hover:bg-orange-300">View offer <span class="ml-2" aria-hidden="true">↗</span></a>
